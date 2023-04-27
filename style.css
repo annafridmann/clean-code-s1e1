@@ -26,7 +26,7 @@ body {
   .start-wrapper { 
     text-align: center;
   }
-  
+
 }
 
 .centered-main-page-element {
@@ -51,7 +51,8 @@ body {
   padding: 0px;
 }
 
-.task-box, li
+.task-box, 
+li,
 h3 {
   list-style: none;
 }
@@ -118,7 +119,8 @@ input#new-task {
 
 /* Task list */
 
-.task-box, li {
+.task-box, 
+li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -188,12 +190,12 @@ button.delete img:hover {
   display: none;
 }
 
-.tasks-wrapper .task-box.editMode input[type="text"] {
+.tasks-wrapper .task-box.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.tasks-wrapper .task-box.editMode label {
+.tasks-wrapper .task-box.edit-mode label {
   display: none;
 }
 
@@ -202,11 +204,11 @@ button.delete img:hover {
   display: none;
 }
 
-.tasks-wrapper li.editMode input[type="text"] {
+.tasks-wrapper li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.tasks-wrapper li.editMode label {
+.tasks-wrapper li.edit-mode label {
   display: none;
 }
